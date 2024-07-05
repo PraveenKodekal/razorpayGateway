@@ -1,0 +1,5 @@
+package com.app.pay.controller;
+
+public class PaymentController {
+
+}

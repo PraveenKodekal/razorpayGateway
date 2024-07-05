@@ -1,0 +1,11 @@
+spring.application.name=RazorPay-Gateway
+
+spring.datasource.username=root
+spring.datasourse.password=root
+spring.datasourse.url=jdbc:mysql://localhost:3306/payment
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.show-sql=true
+razorpay.key.id=rzp_test_Swyvrt0vUqy59t
+
+razorpay.secret.key=3yQsDTq3QrFGuRh8Fu1d9nJg

@@ -1,0 +1,18 @@
+package com.app.pay.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Repository;
+
+import com.app.pay.service.customerService;
+
+@Repository
+public class PaymentController {
+	
+	@Autowired
+	private customerService service;
+	
+	
+	public ResponseEntity<CustomerOrder>
+
+}

@@ -1,0 +1,14 @@
+package com.app.pay.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.app.pay.repo.PaymentRepository;
+
+@Service
+public class customerService {
+	
+	@Autowired
+	private PaymentRepository paymentRepo;
+
+}

@@ -1,0 +1,19 @@
+package com.app.pay.dto;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="customer_orders")
+public class CustomerOrder {
+	
+	private Integer customerId;
+	private String customerName;
+	private String emailId;
+	private String phonNum;
+	private String product;
+	private Integer amount;
+	private String razorPayId;
+	private String OrderStatus;
+
+}

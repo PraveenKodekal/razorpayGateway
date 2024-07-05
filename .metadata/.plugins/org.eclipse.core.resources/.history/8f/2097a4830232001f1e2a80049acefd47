@@ -1,0 +1,10 @@
+package com.app.pay.dto;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="customer_orders")
+public class CustomerOrder {
+
+}

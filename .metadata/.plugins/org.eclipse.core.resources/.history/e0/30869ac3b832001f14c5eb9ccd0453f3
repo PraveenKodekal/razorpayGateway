@@ -1,0 +1,27 @@
+package com.app.pay.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.app.pay.dto.CustomerOrder;
+import com.app.pay.service.customerService;
+
+@Controller
+public class CustomerController {
+	
+	@Autowired
+	private customerService service;
+	
+	@GetMapping("/")
+	public String init() {
+		return "index";
+	}
+	
+	
+	
+	
+
+}
